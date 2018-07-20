@@ -33,7 +33,7 @@ $(function ($)
         var parentId = $parent.attr('id').replace(/-/g, '');
 
         // Create the html picker skeleton
-          var $fieldset = $("<fieldset class='birthdayPicker " + options.fieldSetClass + "'></fieldset>"),
+          var $fieldset = $("<div class='birthdayPicker " + options.fieldSetClass + "'></div>"),
             $yearWrapper = $("<div class='" + options.selectWrapperClass +  "'></div>"),
             $monthWrapper = $("<div class='" + options.selectWrapperClass +  "'></div>"),
             $dayWrapper = $("<div class='" + options.selectWrapperClass +  "'></div>"),
